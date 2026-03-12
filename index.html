@@ -73,6 +73,20 @@
       font-weight: 500;
       letter-spacing: 1px;
     }
+    #credit {
+      color: rgba(255,255,255,0.25);
+      font-size: 11px;
+      margin-top: 6px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    #credit span {
+      background: linear-gradient(90deg, #FF4D6D, #C77DFF, #4CC9F0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+    }
     #combo {
       position: absolute;
       top: 70px;
@@ -158,6 +172,7 @@
     <div id="combo">3x COMBO!</div>
     <canvas id="gameCanvas"></canvas>
     <div id="instructions"></div>
+    <div id="credit">Created by: <span>Digant Purohit</span></div>
     <div id="overlay">
       <h2 id="overlayTitle">GAME OVER</h2>
       <div class="sub">Final Score</div>
